@@ -1,0 +1,31 @@
+.body{
+    margin: 0px;
+}
+nav{
+    position: fixed;
+    display: flex;
+    top: 0;
+    margin: 0px;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    background-color: aqua;
+    border: 3px red;
+    align-items: center;
+    z-index: +1;
+}
+nav h1{
+    z-index: +1;
+}
+#topimg img{
+    height: 40px;
+    width: 100%;
+    z-index: -1;
+}
+.choose{
+    margin-top: 5px;
+
+}
+input:focus{
+    background-color: #fbff00;
+}
