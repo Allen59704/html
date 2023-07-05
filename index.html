@@ -5,21 +5,45 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://github.com/Allen59704/CHU_LOG.git">
 </head>
-<body>
-    <h1>歡迎來到我的網頁！</h1>
+<body class="a">
+    <h1>資安數據分析系統</h1>
     <p>這是一個範例網頁。</p>
+    <p>測試</p>
+    <div>
+        <form>
+            <label for="username">帳號：</label>
+            <input type="text" id="username" name="username">
+        </n>
+            <label for="password">密碼：</label>
+            <input type="password" id="password" name="password">
+            <p>
+            <input type="submit" value="登入">
+            <a href="forgot_password.html">忘記密碼</a>
+        </form>
+    </div>
+        
 
-    
-    <ul>
-        <li><a href="external_users.html" target="_blank">外部使用者</a></li>
-        <li><a href="external_servers.html" target="_blank">外部伺服器</a></li>
-        <li><a href="internet.html" target="_blank">網路</a></li>
-        <li><a href="router.html" target="_blank">路由器</a></li>
-        <li><a href="firewall.html" target="_blank">防火牆</a></li>
-        <li><a href="core_switch.html" target="_blank">核心交換器</a></li>
-        <li><a href="internal_users.html" target="_blank">內部使用者</a></li>
-        <li><a href="internal_servers.html" target="_blank">內部伺服器</a></li>
-    </ul>
+     <div id="8in">
+        <ul>
+            <li class="b"><a href="external_users.html" target="_blank">外部使用者</a></li>
+            <li class="b"><a href="external_servers.html" target="_blank">外部伺服器</a></li>
+            <li class="b"><a href="internet.html" target="_blank">網路</a></li>
+            <li class="b"><a href="router.html" target="_blank">路由器</a></li>
+            <li class="b"><a href="firewall.html" target="_blank">防火牆</a></li>
+            <li class="b"><a href="core_switch.html" target="_blank">核心交換器</a></li>
+            <li class="b"><a href="internal_users.html" target="_blank">內部使用者</a></li>
+            <li class="b"><a href="internal_servers.html" target="_blank">內部伺服器</a></li>
+        </ul>
+    </div>
+    <script>
+        function redirectToJoin() {
+            // 防刷新
+            event.preventDefault();
+            
+            // 登入轉到join.html
+            window.location.href = "join.html";
+        }
+    </script>
 </body>
 </html>
 
