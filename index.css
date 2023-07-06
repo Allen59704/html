@@ -15,12 +15,16 @@ nav{
     z-index: +1;
 }
 nav h1{
+    text-align: center;
     z-index: +1;
 }
 #topimg img{
     height: 40px;
     width: 100%;
     z-index: -1;
+}
+#singin{
+    margin-top: 60px;
 }
 .choose{
     margin-top: 5px;
